@@ -1,0 +1,88 @@
+baseURL                   = "https://MHz-Xing.github.io/"
+builddrafts                = true
+languageCode               = "zn-Hans"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 50
+Paginate                   = 5
+
+theme                      = "AllinOne"
+title                      = "Xing MHz"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  blog                     = "blog/:year-:month/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "文章"
+    weight                 = -150
+    identifier             = "blog"
+    url                    = "blog/"  
+
+  [[menu.main]]
+    name                   = "照片"
+    weight                 = -140
+    identifier             = "moment"
+    url                    = "picture/" 
+
+  [[menu.main]]
+    name                   = "档案馆"
+    weight                 = -120
+    identifier             = "about"
+    url                    = "about/"  
+
+ 
+
+[params]
+  faviconfile              = "/img/xing.svg"               # from static/
+  avatar                   = "https://avatars1.githubusercontent.com/u/16077406?s=460&v=4"             # path to image in static dir e.g img/avatar.png 
+  author                   = "Xing MHz"
+  description              = ["爱技术", "更爱生活", "永远年轻，永远热泪盈眶"]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Hello, World!"
+  welcome_word             = "~ Saying is cheap,Show me your code ~"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath            = "static/img/header-slides"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+
+  # highlighting 
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  email                    = "xingzhh@126.com"
+  github                   = "//github.com/MHz-Xing"
+  weibo                    = "//weibo.com/2462050587"
+  wechat                   = "/images/about/wechat_pay.png"
+  linkedin                 = "https://www.linkedin.com/"
+  include_rss              = false                          # include RSS <link> tag in <head> and show RSS icon
+  
+  
+  fancybox = true           # see https://github.com/fancyapps/fancybox                 # 是否启用fancybox（图片可点击）
+
+  # analytics
+  #googleAnalytics          = "your-google-analytic-id"
+    
+    

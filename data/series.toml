@@ -1,0 +1,18 @@
+[[series]]
+name = "嵌入式linux-c语言"
+img = "/images/series/series_C语言.jpg"
+summary = "嵌入式Linux中C语言技术使用小结"
+
+
+[[series]]
+name = "ble5协议栈"
+img = "/images/series/series_BLE技术.jpg"
+summary = "BLE5 协议栈基础知识点扫盲"
+
+[[series]]
+name = "网站搭建"
+img = "/images/series/series_网站搭建.jpg"
+summary = "网站技术小白，因此记录网站搭建的过程，以备后查"
+
+
+

@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <!-- Main layout -->
+  <main class="post-main-wrapper">
+    <link rel="stylesheet" href="/global/css/error.css">
+    <div class="container">
+      <div class="content">
+        <div class="post-heading" style="font-family: 'Raleway';">404444</div>
+        <div class="py-4"><i class="far fa-frown-open mr-2"></i>{{ i18n "pageNotFound" }}</div>
+		<div id="unfound">
+		<div id="tips"><h3>对页面位置的计算似乎出了一点问题......</h3>
+		<p>也许你可以先去看看其他东西？</p>
+		<a href="/cn/index.html">返回首页</a>
+		</div>
+	</div>
+      </div>
+    </div>
+
+  </main>
+  <!-- /.Main layout -->
+{{ end }}
